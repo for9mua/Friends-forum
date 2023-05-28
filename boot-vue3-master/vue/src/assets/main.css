@@ -1,0 +1,13 @@
+@import './base.css';
+@import './wangeditor.css';
+
+.overflowShow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.el-menu--horizontal>.el-menu-item.is-active {
+    color: orangered !important;
+    border-bottom: 2px solid orangered !important;
+}
